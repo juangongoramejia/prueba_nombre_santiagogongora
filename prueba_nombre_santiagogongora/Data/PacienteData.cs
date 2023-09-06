@@ -45,7 +45,7 @@ namespace prueba_nombre_santiagogongora.Data
                                 Correo = dr["Correo"].ToString(),
 
                                 Fecha_nacimiento = Convert.ToDateTime(dr["Fecha_nacimiento"].ToString()),
-                                Estado_afiliacion = Convert.ToInt32(dr["Estado_afiliacion"].ToString())
+                                Estado_afiliacion = Convert.ToByte(dr["Estado_afiliacion"])
 
                             });
 
